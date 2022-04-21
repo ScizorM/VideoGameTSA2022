@@ -3,11 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Math Quest</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  <body>
+  <body style="background-color:black;">
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=768 height=768></canvas>
       <div id="unity-loading-bar">
@@ -20,18 +19,15 @@
         WebGL builds are not supported on mobile devices.
       </div>
       <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
-        <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Math Quest</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/finalbuild1.loader.js";
+      var loaderUrl = buildUrl + "/finalbuild2.loader.js";
       var config = {
-        dataUrl: buildUrl + "/finalbuild1.data",
-        frameworkUrl: buildUrl + "/finalbuild1.framework.js",
-        codeUrl: buildUrl + "/finalbuild1.wasm",
+        dataUrl: buildUrl + "/finalbuild2.data",
+        frameworkUrl: buildUrl + "/finalbuild2.framework.js",
+        codeUrl: buildUrl + "/finalbuild2.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Unknown",
         productName: "Math Quest",
